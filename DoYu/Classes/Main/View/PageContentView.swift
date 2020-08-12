@@ -138,10 +138,14 @@ extension PageContentView: UICollectionViewDelegate {
         } else {
             // 右滑
             progress = 1 - (currentOffsetX / scrollViewW - floor(currentOffsetX / scrollViewW))
-            
             targetIndex = Int(currentOffsetX / scrollViewW)
-            
+            sourceIndex = targetIndex + 1;
+            if sourceIndex >= childVCs.count {
+                sourceIndex = childVCs.count - 1;
+            }
         }
+        // 将 content view 滚动事件通知给 PageTitleView
+        delegate?.pageContentView(self, progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
     }
     
     

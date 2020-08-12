@@ -78,8 +78,7 @@ extension HomeViewController {
 // MARK: - 实现 PageTitleViewDelegate 协议方法
 extension HomeViewController: PageTitleViewDelegate {
     func pageTitleView(_ titleView: PageTitleView, selectedIndex index: Int) {
-        
-        
+        self.pageContentView.setCurrentIndex(index)
     }
     
 }
@@ -87,6 +86,7 @@ extension HomeViewController: PageTitleViewDelegate {
 // MARK: - 实现 PageContentViewDelegate 协议方法
 extension HomeViewController: PageContentViewDelegate {
     func pageContentView(_ contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        self.pageTitleView.setTitleWithProgress(progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
         
     }
 }

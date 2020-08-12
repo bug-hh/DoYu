@@ -3,10 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6626C46F24E3E41900E7425F /* RoomShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6626C46E24E3E41900E7425F /* RoomShowViewController.swift */; };
+		6626C47124E3E42B00E7425F /* RoomNormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6626C47024E3E42B00E7425F /* RoomNormalViewController.swift */; };
+		6626C47324E3E8B400E7425F /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6626C47224E3E8B400E7425F /* RecommendViewModel.swift */; };
+		6626C47524E3E97A00E7425F /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6626C47424E3E97A00E7425F /* CycleModel.swift */; };
+		6626C47724E3F14500E7425F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6626C47624E3F14500E7425F /* Date+Extension.swift */; };
+		6672841124E37D4F0057FFA7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841024E37D4F0057FFA7 /* BaseViewController.swift */; };
+		6672841324E382250057FFA7 /* BaseAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841224E382250057FFA7 /* BaseAnchorViewController.swift */; };
+		6672841524E3850B0057FFA7 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841424E3850B0057FFA7 /* BaseViewModel.swift */; };
+		6672841724E385FE0057FFA7 /* BaseGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841624E385FE0057FFA7 /* BaseGameModel.swift */; };
+		6672841924E3873B0057FFA7 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841824E3873B0057FFA7 /* AnchorGroup.swift */; };
+		6672841B24E389120057FFA7 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841A24E389120057FFA7 /* AnchorModel.swift */; };
+		6672841D24E38DEB0057FFA7 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672841C24E38DEB0057FFA7 /* NetworkTools.swift */; };
 		66A5714E24DF9FCF00902F96 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5714D24DF9FCF00902F96 /* UIColor+Extension.swift */; };
 		66A5715024DFA8DA00902F96 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5714F24DFA8DA00902F96 /* Common.swift */; };
 		66A5715224DFD31E00902F96 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A5715124DFD31E00902F96 /* PageContentView.swift */; };
@@ -26,9 +38,24 @@
 		68C43C3224DCBAEA001733C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C43C3124DCBAEA001733C4 /* Assets.xcassets */; };
 		68C43C3524DCBAEA001733C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C43C3324DCBAEA001733C4 /* LaunchScreen.storyboard */; };
 		68C43C4E24DEE176001733C4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C43C4D24DEE176001733C4 /* MainViewController.swift */; };
+		92D7AE696D3A11C836E384C4 /* Pods_DoYu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A50C6DCC90DC1DEE7C44CB /* Pods_DoYu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0067A9C56BABB0CA0957081C /* Pods-DoYu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYu.release.xcconfig"; path = "Target Support Files/Pods-DoYu/Pods-DoYu.release.xcconfig"; sourceTree = "<group>"; };
+		49A50C6DCC90DC1DEE7C44CB /* Pods_DoYu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoYu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6626C46E24E3E41900E7425F /* RoomShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoomShowViewController.swift; path = DoYu/Classes/RoomShowViewController.swift; sourceTree = SOURCE_ROOT; };
+		6626C47024E3E42B00E7425F /* RoomNormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoomNormalViewController.swift; path = DoYu/Classes/RoomNormalViewController.swift; sourceTree = SOURCE_ROOT; };
+		6626C47224E3E8B400E7425F /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecommendViewModel.swift; path = DoYu/Classes/RecommendViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6626C47424E3E97A00E7425F /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CycleModel.swift; path = DoYu/Classes/CycleModel.swift; sourceTree = SOURCE_ROOT; };
+		6626C47624E3F14500E7425F /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		6672841024E37D4F0057FFA7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6672841224E382250057FFA7 /* BaseAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAnchorViewController.swift; sourceTree = "<group>"; };
+		6672841424E3850B0057FFA7 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseViewModel.swift; path = DoYu/Classes/Main/Controller/BaseViewModel.swift; sourceTree = SOURCE_ROOT; };
+		6672841624E385FE0057FFA7 /* BaseGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseGameModel.swift; path = DoYu/Classes/Main/Controller/BaseGameModel.swift; sourceTree = SOURCE_ROOT; };
+		6672841824E3873B0057FFA7 /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnchorGroup.swift; path = DoYu/Classes/Main/Controller/AnchorGroup.swift; sourceTree = SOURCE_ROOT; };
+		6672841A24E389120057FFA7 /* AnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnchorModel.swift; path = DoYu/Classes/Main/Controller/AnchorModel.swift; sourceTree = SOURCE_ROOT; };
+		6672841C24E38DEB0057FFA7 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		66A5714D24DF9FCF00902F96 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		66A5714F24DFA8DA00902F96 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		66A5715124DFD31E00902F96 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +77,7 @@
 		68C43C3424DCBAEA001733C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68C43C3624DCBAEA001733C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68C43C4D24DEE176001733C4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E124C9070830FA230A730DA6 /* Pods-DoYu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoYu.debug.xcconfig"; path = "Target Support Files/Pods-DoYu/Pods-DoYu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +85,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D7AE696D3A11C836E384C4 /* Pods_DoYu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243C3DBF44DB19EE8FF8A73F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E124C9070830FA230A730DA6 /* Pods-DoYu.debug.xcconfig */,
+				0067A9C56BABB0CA0957081C /* Pods-DoYu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6626C46C24E3E34D00E7425F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6626C46D24E3E36000E7425F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		68340C0124DF6AEE00B8C9CD /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				68340C0224DF6B2300B8C9CD /* UIBarButtonItem+Extension.swift */,
 				66A5714D24DF9FCF00902F96 /* UIColor+Extension.swift */,
+				6626C47624E3F14500E7425F /* Date+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -77,6 +130,8 @@
 			children = (
 				68C43C2724DCBAE9001733C4 /* DoYu */,
 				68C43C2624DCBAE9001733C4 /* Products */,
+				243C3DBF44DB19EE8FF8A73F /* Pods */,
+				AB310991D92FFE2332327507 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +185,7 @@
 		68C43C3E24DCBE3A001733C4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6626C47224E3E8B400E7425F /* RecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -149,6 +205,7 @@
 		68C43C4024DCBE3A001733C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6626C47424E3E97A00E7425F /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +222,7 @@
 			children = (
 				68340C0124DF6AEE00B8C9CD /* Extension */,
 				66A5714F24DFA8DA00902F96 /* Common.swift */,
+				6672841C24E38DEB0057FFA7 /* NetworkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -172,6 +230,8 @@
 		68C43C4324DCBE3A001733C4 /* Room */ = {
 			isa = PBXGroup;
 			children = (
+				6626C46C24E3E34D00E7425F /* Model */,
+				6626C46D24E3E36000E7425F /* View */,
 				68C43C4424DCBE3A001733C4 /* Controller */,
 			);
 			path = Room;
@@ -180,6 +240,8 @@
 		68C43C4424DCBE3A001733C4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6626C46E24E3E41900E7425F /* RoomShowViewController.swift */,
+				6626C47024E3E42B00E7425F /* RoomNormalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +260,7 @@
 		68C43C4624DCBE3A001733C4 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6672841424E3850B0057FFA7 /* BaseViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -206,6 +269,8 @@
 			isa = PBXGroup;
 			children = (
 				68C43C4D24DEE176001733C4 /* MainViewController.swift */,
+				6672841024E37D4F0057FFA7 /* BaseViewController.swift */,
+				6672841224E382250057FFA7 /* BaseAnchorViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -213,6 +278,9 @@
 		68C43C4824DCBE3A001733C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6672841624E385FE0057FFA7 /* BaseGameModel.swift */,
+				6672841824E3873B0057FFA7 /* AnchorGroup.swift */,
+				6672841A24E389120057FFA7 /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -250,6 +318,14 @@
 			path = Live;
 			sourceTree = "<group>";
 		};
+		AB310991D92FFE2332327507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49A50C6DCC90DC1DEE7C44CB /* Pods_DoYu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68C43C3924DCBAEA001733C4 /* Build configuration list for PBXNativeTarget "DoYu" */;
 			buildPhases = (
+				B4972371C4AEDF97733FB262 /* [CP] Check Pods Manifest.lock */,
 				68C43C2124DCBAE9001733C4 /* Sources */,
 				68C43C2224DCBAE9001733C4 /* Frameworks */,
 				68C43C2324DCBAE9001733C4 /* Resources */,
+				C858B13255766012F49D89EF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,26 +393,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B4972371C4AEDF97733FB262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoYu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C858B13255766012F49D89EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoYu/Pods-DoYu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoYu/Pods-DoYu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoYu/Pods-DoYu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68C43C2124DCBAE9001733C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				68340BFA24DF608300B8C9CD /* HomeViewController.swift in Sources */,
+				6626C46F24E3E41900E7425F /* RoomShowViewController.swift in Sources */,
+				6672841524E3850B0057FFA7 /* BaseViewModel.swift in Sources */,
 				68C43C2D24DCBAE9001733C4 /* ViewController.swift in Sources */,
 				68340C0524DF731C00B8C9CD /* PageTitleView.swift in Sources */,
 				66A5714E24DF9FCF00902F96 /* UIColor+Extension.swift in Sources */,
 				66A5715024DFA8DA00902F96 /* Common.swift in Sources */,
+				6672841324E382250057FFA7 /* BaseAnchorViewController.swift in Sources */,
+				6626C47124E3E42B00E7425F /* RoomNormalViewController.swift in Sources */,
+				6672841124E37D4F0057FFA7 /* BaseViewController.swift in Sources */,
+				6672841D24E38DEB0057FFA7 /* NetworkTools.swift in Sources */,
+				6672841924E3873B0057FFA7 /* AnchorGroup.swift in Sources */,
 				68C43C2924DCBAE9001733C4 /* AppDelegate.swift in Sources */,
 				68C43C2B24DCBAE9001733C4 /* SceneDelegate.swift in Sources */,
 				68340BFE24DF60E700B8C9CD /* ProfileViewController.swift in Sources */,
 				68340BFC24DF60B100B8C9CD /* LiveViewController.swift in Sources */,
+				6626C47724E3F14500E7425F /* Date+Extension.swift in Sources */,
+				6626C47324E3E8B400E7425F /* RecommendViewModel.swift in Sources */,
 				66A5715424DFE8DD00902F96 /* RecommendViewController.swift in Sources */,
 				66A5715624DFE8F100902F96 /* GameViewController.swift in Sources */,
 				66A5715A24DFE91400902F96 /* FunnyViewController.swift in Sources */,
+				6626C47524E3E97A00E7425F /* CycleModel.swift in Sources */,
 				68C43C4E24DEE176001733C4 /* MainViewController.swift in Sources */,
 				66A5715224DFD31E00902F96 /* PageContentView.swift in Sources */,
 				68340C0324DF6B2300B8C9CD /* UIBarButtonItem+Extension.swift in Sources */,
+				6672841B24E389120057FFA7 /* AnchorModel.swift in Sources */,
+				6672841724E385FE0057FFA7 /* BaseGameModel.swift in Sources */,
 				66A5715824DFE90000902F96 /* AmuseViewController.swift in Sources */,
 				68340C0024DF610C00B8C9CD /* FollowViewController.swift in Sources */,
 			);
@@ -470,6 +602,7 @@
 		};
 		68C43C3A24DCBAEA001733C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E124C9070830FA230A730DA6 /* Pods-DoYu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -489,6 +622,7 @@
 		};
 		68C43C3B24DCBAEA001733C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0067A9C56BABB0CA0957081C /* Pods-DoYu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
