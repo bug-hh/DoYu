@@ -8,6 +8,6 @@ target 'DoYu' do
   # Pods for DoYu
   pod 'Alamofire'
   pod 'Kingfisher'
-
+  pod 'SnapKit'
 
 end
